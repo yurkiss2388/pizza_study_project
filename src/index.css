@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input {
+  padding: 10px; /* Пространство между содержимым и рамкой текстового поля */
+  border: 1px solid grey; /* Рамка вокруг текстового поля толщиной 1 пиксель, серого цвета */
+  margin: 5px; /* Пространство вокруг всего текстового поля */
+  border-radius: 5px; /* Углы текстового поля будут слегка закруглены (5 пикселей) */
+  text-align: left; /* Текст в текстовом поле будет выравниваться по левому краю */
+}

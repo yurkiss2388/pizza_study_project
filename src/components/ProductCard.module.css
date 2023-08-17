@@ -1,0 +1,46 @@
+.col {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+
+    margin: auto;
+    justify-content: space-between;
+    max-width: 796px;
+    height: 71px;
+    flex-shrink: 0;
+
+}
+
+.counter {
+    display: flex;
+    border-radius: 8px;
+    background: #F3F3F7;
+    align-items: center;
+}
+
+.counter__btn {
+    border: none;
+    background: none;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+}
+
+.delete {
+    align-items: center;
+    display: flex;
+}
+
+.content__col {
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
