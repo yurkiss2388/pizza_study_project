@@ -4,6 +4,7 @@ import AddProduct from './components/AddProduct';
 import AddUserForm from './components/AddUserForm';
 import ProductCard from './components/ProductCard';
 import Header from './components/Header/Header';
+import ProductCardA from './components/ProductCardA';
 function App() {
   const [nameProduct, setNameProduct] = useState('название продукта')
   const [price, setPrice] = useState('цена')
@@ -37,6 +38,10 @@ function App() {
         price = {price}
         description = {description}
         />
+        <ProductCardA 
+        nameProduct={nameProduct}
+        price = {price}
+        description = {description} />
         
     </div>
   );
